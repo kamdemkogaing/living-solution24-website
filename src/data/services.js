@@ -1,12 +1,11 @@
 import {
-  Home,
-  PaintRoller,
   Building2,
+  Construction,
   Grid3X3,
   Hammer,
+  Home,
+  PaintRoller,
   Truck,
-  Wrench,
-  Construction,
 } from "lucide-react";
 
 export const services = [
@@ -17,7 +16,7 @@ export const services = [
   },
   {
     title: "Renovierung",
-    text: "Renovierungen aller Art, sauber und zuverlässig.",
+    text: "Renovierungen aller Art, sauber & zuverlässig.",
     icon: PaintRoller,
   },
   {
@@ -27,17 +26,17 @@ export const services = [
   },
   {
     title: "Malerarbeiten",
-    text: "Professionelle Malerarbeiten innen und außen.",
+    text: "Professionelle Malerarbeiten innen & außen.",
     icon: PaintRoller,
   },
   {
     title: "Bodenverlegung",
-    text: "Laminat, Vinyl, Fliesen und vieles mehr.",
+    text: "Laminat, Vinyl, Fliesen und mehr.",
     icon: Grid3X3,
   },
   {
     title: "Fassadenarbeiten",
-    text: "Fassadenanstriche und Wärmedämmung.",
+    text: "Fassadenanstriche & Wärmedämmung.",
     icon: Construction,
   },
   {
@@ -47,7 +46,7 @@ export const services = [
   },
   {
     title: "Abbrucharbeiten",
-    text: "Fachgerechter Rückbau und Entsorgung.",
+    text: "Fachgerechter Rückbau & Entsorgung.",
     icon: Truck,
   },
 ];

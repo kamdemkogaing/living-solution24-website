@@ -5,9 +5,7 @@ export default function Contact() {
     <section id="kontakt" className="section-padding bg-brandBlack text-white">
       <div className="max-w-7xl mx-auto px-4 lg:px-6 grid lg:grid-cols-2 gap-12">
         <div>
-          <p className="text-brandRed font-black uppercase text-sm">
-            Kontakt
-          </p>
+          <p className="text-brandRed font-black uppercase text-sm">Kontakt</p>
 
           <h2 className="text-3xl md:text-5xl font-black uppercase mt-3 mb-6">
             Jetzt Projekt anfragen
@@ -21,22 +19,22 @@ export default function Contact() {
           <div className="space-y-5">
             <p className="flex items-center gap-3">
               <Mail className="text-brandRed" />
-              info@living-solution.de
+              info@living-solution24.de
             </p>
 
             <p className="flex items-center gap-3">
               <Mail className="text-brandRed" />
-              rechnung@living-solution.de
+              rechnung@living-solution24.de
             </p>
 
             <p className="flex items-center gap-3">
               <Mail className="text-brandRed" />
-              christianmonthe@living-solution.de
+              christianmonthe@living-solution24.de
             </p>
 
             <p className="flex items-center gap-3">
               <Phone className="text-brandRed" />
-              +49 000 000000
+              +49 176 646 91 587
             </p>
 
             <p className="flex items-center gap-3">
@@ -78,7 +76,7 @@ export default function Contact() {
           <textarea
             placeholder="Nachricht"
             className="w-full border border-brandBorder p-4 h-36 outline-none focus:border-brandRed"
-          ></textarea>
+          />
 
           <button
             type="submit"

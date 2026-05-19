@@ -1,4 +1,4 @@
-import { CheckCircle } from "lucide-react";
+import { ArrowRight, CheckCircle } from "lucide-react";
 
 const points = [
   "Persönliche Beratung",
@@ -15,14 +15,12 @@ export default function About() {
           <img
             src="/images/about-team.jpg"
             alt="Living Solution 24 Team"
-            className="w-full h-[420px] object-cover shadow-soft"
+            className="h-[420px] object-cover shadow-soft"
           />
         </div>
 
         <div>
-          <p className="text-brandRed font-black uppercase text-sm">
-            Über uns
-          </p>
+          <p className="text-brandRed font-black uppercase text-sm">Über uns</p>
 
           <h2 className="text-3xl md:text-5xl font-black uppercase mt-3 mb-6">
             Warum Living Solution 24?
@@ -45,9 +43,9 @@ export default function About() {
 
           <a
             href="#kontakt"
-            className="inline-flex bg-brandRed hover:bg-brandDarkRed text-white px-8 py-4 font-bold uppercase text-sm transition"
+            className="inline-flex items-center gap-3 bg-brandRed hover:bg-brandDarkRed text-white px-8 py-4 font-bold uppercase text-xs transition"
           >
-            Mehr über uns
+            Mehr über uns <ArrowRight size={16} />
           </a>
         </div>
       </div>

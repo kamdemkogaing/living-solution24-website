@@ -1,5 +1,5 @@
-import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -8,7 +8,7 @@ export default function Hero() {
       className="relative min-h-screen pt-24 flex items-center bg-cover bg-center"
       style={{
         backgroundImage:
-          "linear-gradient(90deg, rgba(0,0,0,0.92), rgba(0,0,0,0.45), rgba(0,0,0,0.15)), url('/images/hero-baustelle.jpg')",
+          "linear-gradient(90deg, rgba(0,0,0,0.92), rgba(0,0,0,0.45), rgba(0,0,0,0.15)), url('/images/hero-baustelle.jpeg')",
       }}
     >
       <div className="max-w-7xl mx-auto px-4 lg:px-6 w-full">
@@ -19,8 +19,8 @@ export default function Hero() {
           className="max-w-3xl text-white"
         >
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-black uppercase leading-tight">
-            Bau, Sanierung &{" "}
-            <span className="text-brandRed">Renovierung</span> aus einer Hand
+            Bau, Sanierung & <span className="text-brandRed">Renovierung</span>{" "}
+            aus einer Hand
           </h1>
 
           <p className="mt-6 text-base md:text-lg text-gray-200 max-w-xl">

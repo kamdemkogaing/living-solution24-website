@@ -1,7 +1,15 @@
+import { ArrowRight } from "lucide-react";
 import { references } from "../../data/references";
 import ReferenceCard from "../ui/ReferenceCard";
 
-const filters = ["Alle", "Sanierung", "Renovierung", "Trockenbau", "Innenausbau", "Fassade"];
+const filters = [
+  "Alle",
+  "Sanierung",
+  "Renovierung",
+  "Trockenbau",
+  "Innenausbau",
+  "Fassade",
+];
 
 export default function References() {
   return (
@@ -41,9 +49,9 @@ export default function References() {
         <div className="text-center mt-10">
           <a
             href="#kontakt"
-            className="inline-flex bg-brandRed hover:bg-brandDarkRed text-white px-8 py-4 font-bold uppercase text-sm transition"
+            className="inline-flex items-center gap-3 bg-brandRed hover:bg-brandDarkRed text-white px-8 py-4 font-bold uppercase text-xs transition"
           >
-            Alle Projekte ansehen
+            Alle Projekte ansehen <ArrowRight size={16} />
           </a>
         </div>
       </div>

@@ -1,5 +1,5 @@
-import { useState } from "react";
 import { Menu, Phone, X } from "lucide-react";
+import { useState } from "react";
 
 const navItems = [
   { label: "Startseite", href: "#start" },
@@ -19,7 +19,7 @@ export default function Header() {
           <img
             src="/logo-living-solution.png"
             alt="Living Solution 24"
-            className="h-16 md:h-20 object-contain"
+            className="h-16 md:h-[10rem] object-contain"
           />
         </a>
 
