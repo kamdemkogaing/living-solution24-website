@@ -1,3 +1,4 @@
+import { useMemo, useState } from "react";
 import { ArrowRight } from "lucide-react";
 import { references } from "../../data/references";
 import ReferenceCard from "../ui/ReferenceCard";
@@ -12,9 +13,20 @@ const filters = [
 ];
 
 export default function References() {
+  const [activeFilter, setActiveFilter] = useState("Alle");
+
+  const filteredReferences = useMemo(() => {
+    if (activeFilter === "Alle") {
+      return references;
+    }
+
+    return references.filter((item) => item.category === activeFilter);
+  }, [activeFilter]);
+
   return (
     <section id="referenzen" className="section-padding bg-brandGray">
       <div className="max-w-7xl mx-auto px-4 lg:px-6">
+        {/* Titel */}
         <div className="text-center mb-10">
           <p className="text-brandRed font-black uppercase text-sm">
             Referenzen
@@ -25,27 +37,34 @@ export default function References() {
           </h2>
         </div>
 
-        <div className="flex flex-wrap justify-center gap-2 mb-10">
-          {filters.map((filter, index) => (
+        {/* Filter Tabs */}
+        <div className="flex flex-wrap justify-center gap-3 mb-12">
+          {filters.map((filter) => (
             <button
               key={filter}
-              className={`px-6 py-3 text-xs font-bold uppercase ${
-                index === 0
-                  ? "bg-brandRed text-white"
-                  : "bg-white text-brandBlack"
-              }`}
+              onClick={() => setActiveFilter(filter)}
+              className={`px-6 py-4 text-xs md:text-sm font-black uppercase transition duration-300 border
+              
+              ${
+                activeFilter === filter
+                  ? "bg-brandRed text-white border-brandRed shadow-lg"
+                  : "bg-white text-brandBlack border-gray-200 hover:bg-brandBlack hover:text-white"
+              }
+              `}
             >
               {filter}
             </button>
           ))}
         </div>
 
+        {/* Referenzen */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {references.map((item) => (
+          {filteredReferences.map((item) => (
             <ReferenceCard key={item.title} {...item} />
           ))}
         </div>
 
+        {/* Button */}
         <div className="text-center mt-10">
           <a
             href="#kontakt"

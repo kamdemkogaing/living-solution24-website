@@ -29,4 +29,16 @@ export const references = [
     category: "Renovierung",
     image: "/images/ref-6.webp",
   },
+
+  // Neue Trockenbau Bilder
+  {
+    title: "Trockenbau Wohnzimmer",
+    category: "Trockenbau",
+    image: "/images/ref-7.webp",
+  },
+  {
+    title: "Trockenbau Decke",
+    category: "Trockenbau",
+    image: "/images/ref-8.webp",
+  },
 ];
