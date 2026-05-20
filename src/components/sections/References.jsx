@@ -51,7 +51,7 @@ export default function References() {
             href="#kontakt"
             className="inline-flex items-center gap-3 bg-brandRed hover:bg-brandDarkRed text-white px-8 py-4 font-bold uppercase text-xs transition"
           >
-            Alle Projekte ansehen <ArrowRight size={16} />
+            Uns kontaktieren <ArrowRight size={16} />
           </a>
         </div>
       </div>

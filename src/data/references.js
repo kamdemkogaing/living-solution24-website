@@ -7,7 +7,7 @@ export const references = [
   {
     title: "Innenausbau Flur",
     category: "Innenausbau",
-    image: "/images/ref-2.jpeg",
+    image: "/images/ref-2.jpg",
   },
   {
     title: "Hausfassade Neubau",
@@ -22,11 +22,11 @@ export const references = [
   {
     title: "Komplette Haussanierung",
     category: "Sanierung",
-    image: "/images/ref-5.jpeg",
+    image: "/images/ref-5.jpg",
   },
   {
     title: "Bad Modernisierung",
     category: "Renovierung",
-    image: "/images/ref-6.jpeg",
+    image: "/images/ref-6.jpg",
   },
 ];

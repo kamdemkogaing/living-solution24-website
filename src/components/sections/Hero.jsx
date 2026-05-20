@@ -5,13 +5,13 @@ export default function Hero() {
   return (
     <section
       id="start"
-      className="relative min-h-screen pt-24 flex items-center bg-cover bg-center"
+      className="relative h-[70vh] md:h-[65vh] flex items-center bg-cover bg-center"
       style={{
         backgroundImage:
           "linear-gradient(90deg, rgba(0,0,0,0.92), rgba(0,0,0,0.45), rgba(0,0,0,0.15)), url('/images/hero-baustelle.jpeg')",
       }}
     >
-      <div className="max-w-7xl mx-auto px-4 lg:px-6 w-full">
+      <div className="max-w-7xl mx-auto px-4 lg:px-6 w-full pt-20">
         <motion.div
           initial={{ opacity: 0, y: 35 }}
           animate={{ opacity: 1, y: 0 }}
