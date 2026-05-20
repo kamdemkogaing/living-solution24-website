@@ -1,44 +1,66 @@
 export const references = [
   {
+    id: 1,
     title: "Moderne Badsanierung",
     category: "Sanierung",
+    location: "Badezimmer",
     image: "/images/ref-1.webp",
+    featured: true,
   },
   {
+    id: 2,
     title: "Innenausbau Flur",
     category: "Innenausbau",
+    location: "Wohnbereich",
     image: "/images/ref-2.webp",
+    featured: false,
   },
   {
+    id: 3,
     title: "Hausfassade Neubau",
     category: "Fassade",
+    location: "Außenbereich",
     image: "/images/ref-3.webp",
+    featured: true,
   },
   {
+    id: 4,
     title: "Dachgeschoss Renovierung",
     category: "Renovierung",
+    location: "Dachgeschoss",
     image: "/images/ref-4.webp",
+    featured: false,
   },
   {
+    id: 5,
     title: "Komplette Haussanierung",
     category: "Sanierung",
+    location: "Wohnhaus",
     image: "/images/ref-5.webp",
+    featured: true,
   },
   {
+    id: 6,
     title: "Bad Modernisierung",
     category: "Renovierung",
+    location: "Badezimmer",
     image: "/images/ref-6.webp",
+    featured: false,
   },
-
-  // Neue Trockenbau Bilder
   {
+    id: 7,
     title: "Trockenbau Wohnzimmer",
     category: "Trockenbau",
+    location: "Innenbereich",
     image: "/images/ref-7.webp",
+    featured: false,
   },
   {
+    id: 8,
     title: "Trockenbau Decke",
     category: "Trockenbau",
+    location: "Deckenbau",
     image: "/images/ref-8.webp",
+    featured: false,
   },
 ];
