@@ -121,7 +121,7 @@ export default function Footer() {
 
             <div className="flex flex-wrap gap-4">
               <a
-                href="#"
+                href="https://www.facebook.com/share/1GsJZ2x5br/?mibextid=wwXIfr"
                 aria-label="Facebook"
                 className="w-12 h-12 border border-white/20 rounded-full flex items-center justify-center hover:bg-brandRed hover:border-brandRed transition duration-300"
               >
@@ -129,7 +129,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="#"
+                href="https://www.instagram.com/livingsolution24?igsh=MzFqZ2pwbmc4bW5n&utm_source=qr"
                 aria-label="Instagram"
                 className="w-12 h-12 border border-white/20 rounded-full flex items-center justify-center hover:bg-brandRed hover:border-brandRed transition duration-300"
               >
@@ -147,7 +147,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="#"
+                href="https://www.tiktok.com/@living.solution24?_r=1&_t=ZG-96W3AbOfVjd"
                 aria-label="TikTok"
                 className="w-12 h-12 border border-white/20 rounded-full flex items-center justify-center hover:bg-brandRed hover:border-brandRed transition duration-300"
               >
@@ -155,7 +155,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="#"
+                href="https://youtube.com/@livingsolution24?si=4wJ7jQOarGUBuNl3"
                 aria-label="YouTube"
                 className="w-12 h-12 border border-white/20 rounded-full flex items-center justify-center hover:bg-brandRed hover:border-brandRed transition duration-300"
               >
@@ -261,7 +261,9 @@ export default function Footer() {
                       Umsatzsteuer-Identifikationsnummer gemäß § 27a
                       Umsatzsteuergesetz:
                       <br />
-                      DEXXXXXXXXX
+                      DE369733400
+                      <br />
+                      Steuer Nummer: 35126/01256
                     </p>
                   </div>
 
