@@ -13,7 +13,7 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-4 lg:px-6 grid lg:grid-cols-2 gap-12 items-center">
         <div>
           <img
-            src="/images/about-team.png"
+            src="/images/about-team.webp"
             alt="Living Solution 24 Team"
             className="h-[420px] object-cover shadow-soft"
           />
