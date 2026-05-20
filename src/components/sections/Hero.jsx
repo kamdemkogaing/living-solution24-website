@@ -18,7 +18,7 @@ export default function Hero() {
           transition={{ duration: 0.7 }}
           className="max-w-3xl text-white"
         >
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black uppercase leading-tight">
+          <h1 className="text-4xl md:text-6xl lg:text-[3.5rem] font-black uppercase leading-tight">
             Bau, Sanierung & <span className="text-brandRed">Renovierung</span>{" "}
             aus einer Hand
           </h1>

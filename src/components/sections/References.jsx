@@ -37,7 +37,7 @@ export default function References() {
             </span>
           </div>
 
-          <h2 className="text-3xl md:text-5xl lg:text-6xl font-black uppercase leading-tight">
+          <h2 className="text-3xl md:text-5xl lg:text-[3.5rem] font-black uppercase leading-tight">
             Unsere aktuellen Projekte
           </h2>
 
