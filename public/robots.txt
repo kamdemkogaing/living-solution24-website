@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://living-solution24.de/sitemap.xml
