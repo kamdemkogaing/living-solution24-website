@@ -26,7 +26,7 @@ export default function Services() {
         <div className="text-center mt-10">
           <a
             href="#kontakt"
-            className="inline-flex items-center gap-3 bg-brandRed hover:bg-brandDarkRed text-white px-8 py-4 font-bold uppercase text-xs transition"
+            className="inline-flex items-center gap-3 bg-brandRed hover:bg-brandDarkRed text-white px-8 py-4 font-bold uppercase text-xs transition rounded-xl"
           >
             Alle Leistungen ansehen <ArrowRight size={16} />
           </a>

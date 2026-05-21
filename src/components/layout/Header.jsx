@@ -37,7 +37,7 @@ export default function Header() {
 
         <a
           href="#kontakt"
-          className="hidden lg:flex items-center gap-2 bg-brandRed hover:bg-brandDarkRed text-white px-6 py-3 rounded-sm font-bold uppercase text-sm transition"
+          className="hidden lg:flex items-center gap-2 bg-brandRed hover:bg-brandDarkRed text-white px-6 py-3 font-bold uppercase text-sm transition rounded-xl"
         >
           <Phone size={18} />
           Kontakt

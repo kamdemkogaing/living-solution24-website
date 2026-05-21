@@ -31,14 +31,14 @@ export default function Hero() {
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
             <a
               href="#kontakt"
-              className="bg-brandRed hover:bg-brandDarkRed text-white px-8 py-4 font-bold uppercase text-sm flex items-center justify-center gap-3 transition"
+              className="bg-brandRed hover:bg-brandDarkRed text-white px-8 py-4 font-bold uppercase text-sm flex items-center justify-center gap-3 transition rounded-xl"
             >
               Angebot anfragen <ArrowRight size={18} />
             </a>
 
             <a
               href="#leistungen"
-              className="border border-white text-white px-8 py-4 font-bold uppercase text-sm flex items-center justify-center gap-3 hover:bg-white hover:text-black transition"
+              className="border border-white text-white px-8 py-4 font-bold uppercase text-sm flex items-center justify-center gap-3 hover:bg-white hover:text-black transition rounded-xl"
             >
               Mehr erfahren <ArrowRight size={18} />
             </a>
