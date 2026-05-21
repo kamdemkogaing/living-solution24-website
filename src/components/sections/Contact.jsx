@@ -143,12 +143,14 @@ export default function Contact() {
             <option>Malerarbeiten</option>
             <option>Bodenverlegung</option>
             <option>Innenausbau</option>
+            <option>Sonstiges</option>
           </select>
 
           <textarea
             name="message"
             placeholder="Nachricht"
             required
+            style={{ resize: "none" }}
             className="w-full border border-brandBorder p-4 h-36 outline-none focus:border-brandRed"
           />
 
