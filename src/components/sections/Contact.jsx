@@ -1,8 +1,8 @@
-import { CheckCircle, Mail, MapPin, Phone, X } from "lucide-react";
+import { CheckCircle, Mail, MapPin, Phone } from "lucide-react";
 import { useState } from "react";
 
 export default function Contact() {
-  const [showModal, setShowModal] = useState(false);
+  const [successMessage, setSuccessMessage] = useState("");
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -31,8 +31,15 @@ export default function Contact() {
 
     window.location.href = `mailto:info@living-solution24.de?subject=${subject}&body=${body}`;
 
-    setShowModal(true);
+    setSuccessMessage(
+      "Vielen Dank! Ihre Anfrage wurde vorbereitet. Bitte bestätigen Sie den Versand in Ihrem E-Mail-Programm.",
+    );
+
     form.reset();
+
+    setTimeout(() => {
+      setSuccessMessage("");
+    }, 10000);
   };
 
   return (
@@ -94,6 +101,13 @@ export default function Contact() {
           onSubmit={handleSubmit}
           className="bg-white text-brandBlack p-6 md:p-10 shadow-soft space-y-4"
         >
+          {successMessage && (
+            <div className="flex items-start gap-3 bg-green-50 border border-green-200 text-green-700 p-4">
+              <CheckCircle className="shrink-0 mt-0.5" size={22} />
+              <p className="text-sm font-semibold">{successMessage}</p>
+            </div>
+          )}
+
           <input
             name="name"
             type="text"
@@ -146,36 +160,6 @@ export default function Contact() {
           </button>
         </form>
       </div>
-
-      {showModal && (
-        <div className="fixed inset-0 z-[999] bg-black/70 flex items-center justify-center px-4">
-          <div className="bg-white text-brandBlack max-w-md w-full p-8 shadow-soft relative text-center">
-            <button
-              onClick={() => setShowModal(false)}
-              className="absolute top-4 right-4 text-gray-500 hover:text-brandRed transition"
-            >
-              <X size={24} />
-            </button>
-
-            <div className="w-16 h-16 bg-brandRed text-white rounded-full flex items-center justify-center mx-auto mb-5">
-              <CheckCircle size={34} />
-            </div>
-
-            <h3 className="text-2xl font-black uppercase mb-3">Vielen Dank!</h3>
-
-            <p className="text-gray-600 mb-6">
-              Ihre Nachricht wurde geschickt.
-            </p>
-
-            <button
-              onClick={() => setShowModal(false)}
-              className="bg-brandRed hover:bg-brandDarkRed text-white px-8 py-3 font-bold uppercase transition"
-            >
-              Schließen
-            </button>
-          </div>
-        </div>
-      )}
     </section>
   );
 }
