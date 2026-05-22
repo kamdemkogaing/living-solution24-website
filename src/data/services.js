@@ -10,6 +10,11 @@ import {
 
 export const services = [
   {
+    title: "Abbrucharbeiten",
+    text: "Fachgerechter Rückbau & Entsorgung.",
+    icon: Truck,
+  },
+  {
     title: "Sanierung",
     text: "Komplette Sanierungen von Alt- und Neubauten.",
     icon: Home,
@@ -43,10 +48,5 @@ export const services = [
     title: "Innenausbau",
     text: "Individueller Innenausbau nach Wunsch.",
     icon: Hammer,
-  },
-  {
-    title: "Abbrucharbeiten",
-    text: "Fachgerechter Rückbau & Entsorgung.",
-    icon: Truck,
   },
 ];

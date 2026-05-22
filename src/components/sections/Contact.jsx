@@ -49,7 +49,7 @@ export default function Contact() {
           <p className="text-brandRed font-black uppercase text-sm">Kontakt</p>
 
           <h2 className="text-3xl md:text-5xl font-black uppercase mt-3 mb-6">
-            Jetzt Projekt anfragen
+            Jetzt Angebot anfragen
           </h2>
 
           <p className="text-gray-300 mb-8 leading-relaxed">
@@ -83,11 +83,11 @@ export default function Contact() {
             </a>
 
             <a
-              href="tel:+4917664691587"
+              href="tel:+491726432778"
               className="flex items-center gap-3 hover:text-brandRed transition"
             >
               <Phone className="text-brandRed shrink-0" />
-              +49 176 646 91 587
+              +491726432778
             </a>
 
             <p className="flex items-center gap-3">

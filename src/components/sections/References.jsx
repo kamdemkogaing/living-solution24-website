@@ -82,9 +82,9 @@ export default function References() {
 
         <div className="mt-12 flex flex-col md:flex-row items-center justify-between gap-6 bg-brandBlack text-white p-6 md:p-8 shadow-soft">
           <div>
-            <p className="text-brandRed font-black uppercase text-sm">
+            {/* <p className="text-brandRed font-black uppercase text-sm">
               Ihr Projekt ist das nächste?
-            </p>
+            </p> */}
             <h3 className="text-2xl md:text-3xl font-black uppercase mt-2">
               Jetzt kostenlose Anfrage senden
             </h3>
