@@ -40,7 +40,7 @@ export default function Footer() {
                 className="flex items-center gap-3 hover:text-brandRed transition"
               >
                 <Phone size={18} className="text-brandRed shrink-0" />
-                +49 176 646 91 587
+                +491726432778
               </a>
 
               <a
