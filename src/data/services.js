@@ -14,9 +14,9 @@ export const services = [
     text: "Fachgerechter Rückbau & Entsorgung.",
     icon: Truck,
     images: [
-      "/images/services/abbruch-1.jpg",
-      "/images/services/abbruch-2.jpg",
-      "/images/services/abbruch-3.jpg",
+      "/images/services/abbruch-1.webp",
+      "/images/services/abbruch-2.webp",
+      "/images/services/abbruch-3.webp",
     ],
   },
   {
@@ -24,9 +24,9 @@ export const services = [
     text: "Komplette Sanierungen von Alt- und Neubauten.",
     icon: Home,
     images: [
-      "/images/services/sanierung-1.jpg",
-      "/images/services/sanierung-2.jpg",
-      "/images/services/sanierung-3.jpg",
+      "/images/services/sanierung-1.webp",
+      "/images/services/sanierung-2.webp",
+      "/images/services/sanierung-3.webp",
     ],
   },
   {
@@ -34,9 +34,9 @@ export const services = [
     text: "Renovierungen aller Art, sauber & zuverlässig.",
     icon: PaintRoller,
     images: [
-      "/images/services/renovierung-1.jpg",
-      "/images/services/renovierung-2.jpg",
-      "/images/services/renovierung-3.jpg",
+      "/images/services/renovierung-1.webp",
+      "/images/services/renovierung-2.webp",
+      "/images/services/renovierung-3.webp",
     ],
   },
   {
@@ -44,9 +44,9 @@ export const services = [
     text: "Moderne Trockenbaulösungen für Ihr Zuhause.",
     icon: Building2,
     images: [
-      "/images/services/trockenbau-1.jpg",
-      "/images/services/trockenbau-2.jpg",
-      "/images/services/trockenbau-3.jpg",
+      "/images/services/trockenbau-1.webp",
+      "/images/services/trockenbau-2.webp",
+      "/images/services/trockenbau-3.webp",
     ],
   },
   {
@@ -54,9 +54,9 @@ export const services = [
     text: "Professionelle Malerarbeiten innen & außen.",
     icon: PaintRoller,
     images: [
-      "/images/services/malerarbeiten-1.jpg",
-      "/images/services/malerarbeiten-2.jpg",
-      "/images/services/malerarbeiten-3.jpg",
+      "/images/services/malerarbeiten-1.webp",
+      "/images/services/malerarbeiten-2.webp",
+      "/images/services/malerarbeiten-3.webp",
     ],
   },
   {
@@ -64,9 +64,9 @@ export const services = [
     text: "Laminat, Vinyl, Fliesen und mehr.",
     icon: Grid3X3,
     images: [
-      "/images/services/boden-1.jpg",
-      "/images/services/boden-2.jpg",
-      "/images/services/boden-3.jpg",
+      "/images/services/boden-1.webp",
+      "/images/services/boden-2.webp",
+      "/images/services/boden-3.webp",
     ],
   },
   {
@@ -74,9 +74,9 @@ export const services = [
     text: "Fassadenanstriche & Wärmedämmung.",
     icon: Construction,
     images: [
-      "/images/services/fassade-1.jpg",
-      "/images/services/fassade-2.jpg",
-      "/images/services/fassade-3.jpg",
+      "/images/services/fassade-1.webp",
+      "/images/services/fassade-2.webp",
+      "/images/services/fassade-3.webp",
     ],
   },
   {
@@ -84,9 +84,9 @@ export const services = [
     text: "Individueller Innenausbau nach Wunsch.",
     icon: Hammer,
     images: [
-      "/images/services/innenausbau-1.jpg",
-      "/images/services/innenausbau-2.jpg",
-      "/images/services/innenausbau-3.jpg",
+      "/images/services/innenausbau-1.webp",
+      "/images/services/innenausbau-2.webp",
+      "/images/services/innenausbau-3.webp",
     ],
   },
 ];
