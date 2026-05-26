@@ -63,4 +63,12 @@ export const references = [
     image: "/images/ref-8.webp",
     featured: false,
   },
+  {
+    id: 9,
+    title: "Elektrikarbeiten",
+    category: "Elektrik",
+    location: "Innenbereich",
+    image: "/images/services/elektrik-3.webp",
+    featured: false,
+  },
 ];

@@ -6,6 +6,7 @@ import {
   Home,
   PaintRoller,
   Truck,
+  Zap,
 } from "lucide-react";
 
 export const services = [
@@ -19,6 +20,7 @@ export const services = [
       "/images/services/abbruch-3.webp",
     ],
   },
+
   {
     title: "Sanierung",
     text: "Komplette Sanierungen von Alt- und Neubauten.",
@@ -29,6 +31,7 @@ export const services = [
       "/images/services/sanierung-3.webp",
     ],
   },
+
   {
     title: "Renovierung",
     text: "Renovierungen aller Art, sauber & zuverlässig.",
@@ -39,6 +42,7 @@ export const services = [
       "/images/services/renovierung-3.webp",
     ],
   },
+
   {
     title: "Trockenbau",
     text: "Moderne Trockenbaulösungen für Ihr Zuhause.",
@@ -49,6 +53,7 @@ export const services = [
       "/images/services/trockenbau-3.webp",
     ],
   },
+
   {
     title: "Malerarbeiten",
     text: "Professionelle Malerarbeiten innen & außen.",
@@ -59,6 +64,7 @@ export const services = [
       "/images/services/malerarbeiten-3.webp",
     ],
   },
+
   {
     title: "Bodenverlegung",
     text: "Laminat, Vinyl, Fliesen und mehr.",
@@ -69,6 +75,7 @@ export const services = [
       "/images/services/boden-3.webp",
     ],
   },
+
   {
     title: "Fassadenarbeiten",
     text: "Fassadenanstriche & Wärmedämmung.",
@@ -79,6 +86,7 @@ export const services = [
       "/images/services/fassade-3.webp",
     ],
   },
+
   {
     title: "Innenausbau",
     text: "Individueller Innenausbau nach Wunsch.",
@@ -87,6 +95,18 @@ export const services = [
       "/images/services/innenausbau-1.webp",
       "/images/services/innenausbau-2.webp",
       "/images/services/innenausbau-3.webp",
+    ],
+  },
+
+  {
+    title: "Elektrikarbeiten",
+    text: "Professionelle Elektroinstallationen & moderne Stromlösungen.",
+    icon: Zap,
+    images: [
+      "/images/services/elektrik-1.webp",
+      "/images/services/elektrik-2.webp",
+      "/images/services/elektrik-3.webp",
+      "/images/services/elektrik-4.webp",
     ],
   },
 ];

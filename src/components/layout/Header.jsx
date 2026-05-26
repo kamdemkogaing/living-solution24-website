@@ -17,9 +17,9 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 lg:px-6 h-24 flex items-center justify-between">
         <a href="#start">
           <img
-            src="/logo-living-solution.webp"
+            src="/images/logo_CM.webp"
             alt="Living Solution 24"
-            className="h-16 md:h-[10rem] object-contain"
+            className="h-16 md:h-[6rem] object-contain"
           />
         </a>
 

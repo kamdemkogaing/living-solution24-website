@@ -10,6 +10,7 @@ const filters = [
   "Trockenbau",
   "Innenausbau",
   "Fassade",
+  "Elektrik",
 ];
 
 export default function References() {

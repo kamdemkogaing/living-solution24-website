@@ -19,7 +19,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 lg:px-6 py-14 grid md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
             <img
-              src="/logo-living-solution_v2.webp"
+              src="/images/logo_CM.webp"
               alt="Living Solution 24"
               className="mb-6"
             />
