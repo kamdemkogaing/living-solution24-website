@@ -6,6 +6,7 @@ import {
   Home,
   PaintRoller,
   Truck,
+  Upload,
   Zap,
 } from "lucide-react";
 
@@ -108,5 +109,13 @@ export const services = [
       "/images/services/elektrik-3.webp",
       "/images/services/elektrik-4.webp",
     ],
+  },
+
+  {
+    title: "Projektbilder hochladen",
+    text: "Unsere Bilder von Baustelle oder Projekt hinzufügen.",
+    icon: Upload,
+    images: [],
+    upload: true,
   },
 ];
