@@ -11,9 +11,7 @@ export default function About() {
   return (
     <section id="ueber-uns" className="section-padding bg-white">
       <div className="max-w-7xl mx-auto px-4 lg:px-6">
-        {/* Oberer Bereich */}
         <div className="grid lg:grid-cols-2 gap-14 items-center">
-          {/* Geschäftsführer */}
           <div>
             <div className="relative overflow-hidden rounded-3xl shadow-xl">
               <img
@@ -34,7 +32,6 @@ export default function About() {
             </div>
           </div>
 
-          {/* Text */}
           <div>
             <p className="text-brandRed font-black uppercase text-sm">
               Über uns
@@ -75,7 +72,6 @@ export default function About() {
           </div>
         </div>
 
-        {/* Teamfoto volle Breite */}
         <div className="mt-20">
           <div className="text-center mb-8">
             <p className="text-brandRed font-black uppercase text-sm">
@@ -87,25 +83,28 @@ export default function About() {
             </h3>
           </div>
 
-          <div className="relative overflow-hidden rounded-3xl shadow-xl">
+          <div className="relative overflow-hidden rounded-3xl shadow-xl bg-white">
             <img
               src="/images/team-living-solution24.webp"
               alt="Living Solution 24 Team"
-              className="w-full h-[650px] object-cover"
+              className="
+                w-full
+                object-contain
+                md:object-cover
+                max-h-[320px]
+                md:max-h-[500px]
+                lg:h-[650px]
+              "
             />
 
-            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent pointer-events-none" />
 
-            <div className="absolute bottom-8 left-8">
-              <p className="text-brandRed uppercase font-bold">
-                Living Solution 24
-              </p>
-
-              <h3 className="text-white text-3xl md:text-5xl font-black">
+            <div className="absolute bottom-4 left-4 right-4 md:bottom-8 md:left-8 md:right-auto">
+              <h3 className="text-white text-xl md:text-5xl font-black">
                 Unser starkes Team
               </h3>
 
-              <p className="text-white mt-3 max-w-2xl">
+              <p className="text-white mt-2 md:mt-3 max-w-2xl text-sm md:text-base">
                 Erfahrene Fachkräfte für Sanierung, Renovierung, Trockenbau,
                 Elektrik und Innenausbau.
               </p>
