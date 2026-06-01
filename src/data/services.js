@@ -1,4 +1,5 @@
 import {
+  Bath,
   Building2,
   Construction,
   Grid3X3,
@@ -18,7 +19,10 @@ export const services = [
     images: [
       "/images/services/abbruch/abbruch-1.webp",
       "/images/services/abbruch/abbruch-2.webp",
-      "/images/services/abbruch/abbruch-3.webp",
+      "/images/services/abbruch/abbruch-4.webp",
+      "/images/services/abbruch/abbruch-5.webp",
+      "/images/services/abbruch/abbruch-6.webp",
+      "/images/services/abbruch/abbruch-7.webp",
     ],
   },
 
@@ -28,8 +32,8 @@ export const services = [
     icon: Home,
     images: [
       "/images/services/sanierung/sanierung-1.webp",
-      "/images/services/sanierung/sanierung-2.webp",
-      "/images/services/sanierung/sanierung-3.webp",
+      /*  "/images/services/sanierung/sanierung-2.webp",
+      "/images/services/sanierung/sanierung-3.webp", */
     ],
   },
 
@@ -39,7 +43,7 @@ export const services = [
     icon: PaintRoller,
     images: [
       "/images/services/renovierung/renovierung-1.webp",
-      "/images/services/renovierung/renovierung-2.webp",
+      /* "/images/services/renovierung/renovierung-2.webp", */
       "/images/services/renovierung/renovierung-3.webp",
     ],
   },
@@ -85,6 +89,7 @@ export const services = [
       "/images/services/fassadenarbeiten/fassade-1.webp",
       "/images/services/fassadenarbeiten/fassade-2.webp",
       "/images/services/fassadenarbeiten/fassade-3.webp",
+      "/images/services/fassadenarbeiten/fassade-4.webp",
     ],
   },
 
@@ -96,6 +101,19 @@ export const services = [
       "/images/services/innenausbau/innenausbau-1.webp",
       "/images/services/innenausbau/innenausbau-2.webp",
       "/images/services/innenausbau/innenausbau-3.webp",
+    ],
+  },
+
+  {
+    title: "Badrenovierung",
+    text: "Moderne Badsanierung von der Planung bis zur fertigen Wohlfühloase – alles aus einer Hand.",
+    icon: Bath,
+    images: [
+      "/images/services/badrenovierung/bad-1.webp",
+      "/images/services/badrenovierung/bad-2.webp",
+      "/images/services/badrenovierung/bad-3.webp",
+      "/images/services/badrenovierung/bad-4.webp",
+      "/images/services/badrenovierung/bad-5.webp",
     ],
   },
 
