@@ -8,7 +8,7 @@ export default function Hero() {
       className="relative h-[70vh] md:h-[65vh] flex items-center bg-cover bg-center"
       style={{
         backgroundImage:
-          "linear-gradient(90deg, rgba(0,0,0,0.92), rgba(0,0,0,0.45), rgba(0,0,0,0.15)), url('/images/hero-baustelle.webp')",
+          "linear-gradient(90deg, rgba(0,0,0,0.5), rgba(0,0,0,0.45), rgba(0,0,0,0.15)), url('/images/hero-baustelle-v2.webp')",
       }}
     >
       <div className="max-w-7xl mx-auto px-4 lg:px-6 w-full pt-20">

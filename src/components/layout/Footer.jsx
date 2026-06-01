@@ -3,6 +3,7 @@ import { useState } from "react";
 import {
   FaFacebookF,
   FaInstagram,
+  FaLinkedinIn,
   FaTiktok,
   FaWhatsapp,
   FaYoutube,
@@ -12,6 +13,11 @@ export default function Footer() {
   const [modal, setModal] = useState(null);
 
   const closeModal = () => setModal(null);
+
+  const karlsruheMap =
+    "https://www.google.com/maps/search/?api=1&query=Erzbergerstr+94+76133+Karlsruhe";
+  const pforzheimMap =
+    "https://www.google.com/maps/search/?api=1&query=Bleichstr+46+75173+Pforzheim";
 
   return (
     <>
@@ -36,11 +42,11 @@ export default function Footer() {
 
             <div className="space-y-4 text-sm text-gray-300">
               <a
-                href="tel:+4917664691587"
+                href="tel:+491726432778"
                 className="flex items-center gap-3 hover:text-brandRed transition"
               >
                 <Phone size={18} className="text-brandRed shrink-0" />
-                +491726432778
+                +49 172 643 2778
               </a>
 
               <a
@@ -67,10 +73,37 @@ export default function Footer() {
                 christianmonthe@living-solution24.de
               </a>
 
-              <p className="flex items-center gap-3">
-                <MapPin size={18} className="text-brandRed shrink-0" />
-                Deutschland
-              </p>
+              <a
+                href={karlsruheMap}
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-start gap-3 hover:text-brandRed transition"
+              >
+                <MapPin size={18} className="text-brandRed shrink-0 mt-0.5" />
+                <span>
+                  Karlsruhe
+                  <br />
+                  Erzbergerstr. 94
+                  <br />
+                  76133 Karlsruhe
+                </span>
+              </a>
+
+              <a
+                href={pforzheimMap}
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-start gap-3 hover:text-brandRed transition"
+              >
+                <MapPin size={18} className="text-brandRed shrink-0 mt-0.5" />
+                <span>
+                  Pforzheim
+                  <br />
+                  Bleichstr. 46
+                  <br />
+                  75173 Pforzheim
+                </span>
+              </a>
             </div>
           </div>
 
@@ -122,6 +155,8 @@ export default function Footer() {
             <div className="flex flex-wrap gap-4">
               <a
                 href="https://www.facebook.com/share/1GsJZ2x5br/?mibextid=wwXIfr"
+                target="_blank"
+                rel="noreferrer"
                 aria-label="Facebook"
                 className="w-12 h-12 border border-white/20 rounded-full flex items-center justify-center hover:bg-brandRed hover:border-brandRed transition duration-300"
               >
@@ -130,6 +165,8 @@ export default function Footer() {
 
               <a
                 href="https://www.instagram.com/livingsolution24?igsh=MzFqZ2pwbmc4bW5n&utm_source=qr"
+                target="_blank"
+                rel="noreferrer"
                 aria-label="Instagram"
                 className="w-12 h-12 border border-white/20 rounded-full flex items-center justify-center hover:bg-brandRed hover:border-brandRed transition duration-300"
               >
@@ -148,6 +185,8 @@ export default function Footer() {
 
               <a
                 href="https://www.tiktok.com/@living.solution24?_r=1&_t=ZG-96W3AbOfVjd"
+                target="_blank"
+                rel="noreferrer"
                 aria-label="TikTok"
                 className="w-12 h-12 border border-white/20 rounded-full flex items-center justify-center hover:bg-brandRed hover:border-brandRed transition duration-300"
               >
@@ -156,10 +195,22 @@ export default function Footer() {
 
               <a
                 href="https://youtube.com/@livingsolution24?si=4wJ7jQOarGUBuNl3"
+                target="_blank"
+                rel="noreferrer"
                 aria-label="YouTube"
                 className="w-12 h-12 border border-white/20 rounded-full flex items-center justify-center hover:bg-brandRed hover:border-brandRed transition duration-300"
               >
                 <FaYoutube size={20} />
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/christian-monthe-298b73317/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="LinkedIn"
+                className="w-12 h-12 border border-white/20 rounded-full flex items-center justify-center hover:bg-[#0A66C2] hover:border-[#0A66C2] transition duration-300"
+              >
+                <FaLinkedinIn size={20} />
               </a>
             </div>
 
@@ -197,7 +248,7 @@ export default function Footer() {
 
       {modal && (
         <div className="fixed inset-0 z-[9999] bg-black/75 flex items-center justify-center px-4">
-          <div className="relative bg-white text-brandBlack max-w-4xl w-full max-h-[85vh] overflow-y-auto p-6 md:p-10 shadow-2xl">
+          <div className="relative bg-white text-brandBlack max-w-4xl w-full max-h-[85vh] overflow-y-auto p-6 md:p-10 shadow-2xl rounded-2xl">
             <button
               type="button"
               onClick={closeModal}
@@ -221,9 +272,20 @@ export default function Footer() {
                       <br />
                       Inhaber: Christian Monthe
                       <br />
-                      Straße und Hausnummer
+                      Erzbergerstr. 94
                       <br />
-                      PLZ Ort
+                      76133 Karlsruhe
+                      <br />
+                      Deutschland
+                    </p>
+                  </div>
+
+                  <div>
+                    <h3 className="font-bold text-lg mb-2">Weitere Adresse</h3>
+                    <p>
+                      Bleichstr. 46
+                      <br />
+                      75173 Pforzheim
                       <br />
                       Deutschland
                     </p>
@@ -232,7 +294,7 @@ export default function Footer() {
                   <div>
                     <h3 className="font-bold text-lg mb-2">Kontakt</h3>
                     <p>
-                      Telefon: +49 176 646 91 587
+                      Telefon: +49 172 643 2778
                       <br />
                       E-Mail: info@living-solution24.de
                       <br />
@@ -247,9 +309,9 @@ export default function Footer() {
                     <p>
                       Christian Monthe
                       <br />
-                      Straße und Hausnummer
+                      Erzbergerstr. 94
                       <br />
-                      PLZ Ort
+                      76133 Karlsruhe
                       <br />
                       Deutschland
                     </p>
@@ -263,48 +325,9 @@ export default function Footer() {
                       <br />
                       DE369733400
                       <br />
-                      Steuer Nummer: 35126/01256
+                      Steuernummer: 35126/01256
                     </p>
                   </div>
-
-                  <div>
-                    <h3 className="font-bold text-lg mb-2">
-                      Haftung für Inhalte
-                    </h3>
-                    <p>
-                      Als Diensteanbieter sind wir für eigene Inhalte auf diesen
-                      Seiten nach den allgemeinen Gesetzen verantwortlich. Wir
-                      sind jedoch nicht verpflichtet, übermittelte oder
-                      gespeicherte fremde Informationen zu überwachen.
-                    </p>
-                  </div>
-
-                  <div>
-                    <h3 className="font-bold text-lg mb-2">
-                      Haftung für Links
-                    </h3>
-                    <p>
-                      Unser Angebot enthält Links zu externen Webseiten Dritter,
-                      auf deren Inhalte wir keinen Einfluss haben. Deshalb
-                      übernehmen wir für diese fremden Inhalte keine Gewähr.
-                    </p>
-                  </div>
-
-                  <div>
-                    <h3 className="font-bold text-lg mb-2">Urheberrecht</h3>
-                    <p>
-                      Die durch den Seitenbetreiber erstellten Inhalte und Werke
-                      auf dieser Webseite unterliegen dem deutschen
-                      Urheberrecht. Beiträge Dritter sind als solche
-                      gekennzeichnet.
-                    </p>
-                  </div>
-
-                  <p className="text-sm text-gray-500 pt-4">
-                    Hinweis: Bitte Adresse, Rechtsform, Umsatzsteuer-ID und
-                    weitere Pflichtangaben vor Veröffentlichung durch echte
-                    Firmendaten ersetzen.
-                  </p>
                 </div>
               </div>
             )}
@@ -336,9 +359,9 @@ export default function Footer() {
                       <br />
                       Inhaber: Christian Monthe
                       <br />
-                      Straße und Hausnummer
+                      Erzbergerstr. 94
                       <br />
-                      PLZ Ort
+                      76133 Karlsruhe
                       <br />
                       Deutschland
                       <br />
@@ -348,104 +371,42 @@ export default function Footer() {
 
                   <div>
                     <h3 className="font-bold text-lg mb-2">
-                      3. Erhebung und Verarbeitung personenbezogener Daten
+                      3. Google Maps / externe Links
+                    </h3>
+                    <p>
+                      Im Footer werden Google-Maps-Links zu unseren Standorten
+                      bereitgestellt. Beim Anklicken verlassen Sie unsere
+                      Webseite und es gelten die Datenschutzbestimmungen von
+                      Google.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h3 className="font-bold text-lg mb-2">
+                      4. Kontaktformular
                     </h3>
                     <p>
                       Wenn Sie uns über das Kontaktformular kontaktieren, werden
-                      die von Ihnen eingegebenen Daten wie Name, E-Mail-Adresse,
-                      Telefonnummer, ausgewählte Leistung und Nachricht
-                      verarbeitet, um Ihre Anfrage zu beantworten.
+                      die eingegebenen Daten zur Bearbeitung Ihrer Anfrage
+                      verarbeitet.
                     </p>
                   </div>
 
                   <div>
                     <h3 className="font-bold text-lg mb-2">
-                      4. Rechtsgrundlage
+                      5. Social Media Links
                     </h3>
                     <p>
-                      Die Verarbeitung Ihrer Daten erfolgt auf Grundlage von
-                      Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der
-                      Erfüllung eines Vertrags oder vorvertraglichen Maßnahmen
-                      zusammenhängt. In allen übrigen Fällen erfolgt die
-                      Verarbeitung auf Grundlage unseres berechtigten Interesses
-                      gemäß Art. 6 Abs. 1 lit. f DSGVO.
-                    </p>
-                  </div>
-
-                  <div>
-                    <h3 className="font-bold text-lg mb-2">5. Speicherdauer</h3>
-                    <p>
-                      Ihre Daten bleiben bei uns, bis der Zweck der
-                      Datenverarbeitung entfällt oder Sie uns zur Löschung
-                      auffordern, sofern keine gesetzlichen
-                      Aufbewahrungspflichten entgegenstehen.
-                    </p>
-                  </div>
-
-                  <div>
-                    <h3 className="font-bold text-lg mb-2">
-                      6. Weitergabe von Daten
-                    </h3>
-                    <p>
-                      Eine Weitergabe Ihrer personenbezogenen Daten an Dritte
-                      erfolgt nicht ohne Ihre Einwilligung, es sei denn, dies
-                      ist zur Bearbeitung Ihrer Anfrage erforderlich oder wir
-                      sind gesetzlich dazu verpflichtet.
-                    </p>
-                  </div>
-
-                  <div>
-                    <h3 className="font-bold text-lg mb-2">7. Ihre Rechte</h3>
-                    <p>
-                      Sie haben jederzeit das Recht auf Auskunft, Berichtigung,
-                      Löschung, Einschränkung der Verarbeitung,
-                      Datenübertragbarkeit sowie Widerspruch gegen die
-                      Verarbeitung Ihrer personenbezogenen Daten.
-                    </p>
-                  </div>
-
-                  <div>
-                    <h3 className="font-bold text-lg mb-2">
-                      8. Server-Log-Dateien
-                    </h3>
-                    <p>
-                      Beim Besuch dieser Webseite können durch den
-                      Hostinganbieter automatisch Informationen wie IP-Adresse,
-                      Browsertyp, Betriebssystem, Referrer-URL und Uhrzeit des
-                      Zugriffs erfasst werden. Diese Daten dienen der
-                      technischen Sicherheit und Stabilität der Webseite.
-                    </p>
-                  </div>
-
-                  <div>
-                    <h3 className="font-bold text-lg mb-2">
-                      9. Kontakt per E-Mail oder Telefon
-                    </h3>
-                    <p>
-                      Wenn Sie uns per E-Mail oder Telefon kontaktieren, werden
-                      Ihre Angaben zur Bearbeitung der Anfrage und für mögliche
-                      Anschlussfragen gespeichert.
-                    </p>
-                  </div>
-
-                  <div>
-                    <h3 className="font-bold text-lg mb-2">
-                      10. Cookies und externe Dienste
-                    </h3>
-                    <p>
-                      Diese Webseite kann technisch notwendige Cookies
-                      verwenden. Sollten externe Dienste wie Google Maps, Google
-                      Analytics, YouTube, Instagram, Facebook oder andere
-                      Dienste eingebunden werden, muss diese
-                      Datenschutzerklärung entsprechend erweitert werden.
+                      Diese Webseite enthält Links zu Facebook, Instagram,
+                      WhatsApp, TikTok, YouTube und LinkedIn. Beim Anklicken
+                      dieser Links gelten die Datenschutzrichtlinien der
+                      jeweiligen Anbieter.
                     </p>
                   </div>
 
                   <p className="text-sm text-gray-500 pt-4">
                     Hinweis: Diese Datenschutzerklärung ist eine Vorlage und
-                    ersetzt keine rechtliche Prüfung. Bitte vor Veröffentlichung
-                    mit echten Firmendaten und tatsächlich verwendeten Diensten
-                    anpassen.
+                    ersetzt keine rechtliche Prüfung.
                   </p>
                 </div>
               </div>
