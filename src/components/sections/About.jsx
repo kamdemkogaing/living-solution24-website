@@ -41,12 +41,12 @@ export default function About() {
               Warum Living Solution 24?
             </h2>
 
-            <p className="text-gray-600 leading-relaxed mb-8 text-lg">
+            <p className="text-gray-600 leading-relaxed mb-8">
               Wir sind Ihr zuverlässiger Partner für Bau, Sanierung,
               Renovierung, Trockenbau, Elektrik und Innenausbau.
             </p>
 
-            <p className="text-gray-600 leading-relaxed mb-10 text-lg">
+            <p className="text-gray-600 leading-relaxed mb-10">
               Mit Leidenschaft, Erfahrung und einem starken Team begleiten wir
               unsere Kunden von der Planung bis zur erfolgreichen Umsetzung
               ihrer Projekte.
@@ -57,7 +57,7 @@ export default function About() {
                 <div key={point} className="flex items-center gap-3">
                   <CheckCircle className="text-brandRed shrink-0" size={22} />
 
-                  <span className="font-semibold text-lg">{point}</span>
+                  <span className="font-semibold">{point}</span>
                 </div>
               ))}
             </div>
