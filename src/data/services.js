@@ -16,9 +16,9 @@ export const services = [
     text: "Fachgerechter Rückbau & Entsorgung.",
     icon: Truck,
     images: [
-      "/images/services/abbruch-1.webp",
-      "/images/services/abbruch-2.webp",
-      "/images/services/abbruch-3.webp",
+      "/images/services/abbruch/abbruch-1.webp",
+      "/images/services/abbruch/abbruch-2.webp",
+      "/images/services/abbruch/abbruch-3.webp",
     ],
   },
 
@@ -27,9 +27,9 @@ export const services = [
     text: "Komplette Sanierungen von Alt- und Neubauten.",
     icon: Home,
     images: [
-      "/images/services/sanierung-1.webp",
-      "/images/services/sanierung-2.webp",
-      "/images/services/sanierung-3.webp",
+      "/images/services/sanierung/sanierung-1.webp",
+      "/images/services/sanierung/sanierung-2.webp",
+      "/images/services/sanierung/sanierung-3.webp",
     ],
   },
 
@@ -38,9 +38,9 @@ export const services = [
     text: "Renovierungen aller Art, sauber & zuverlässig.",
     icon: PaintRoller,
     images: [
-      "/images/services/renovierung-1.webp",
-      "/images/services/renovierung-2.webp",
-      "/images/services/renovierung-3.webp",
+      "/images/services/renovierung/renovierung-1.webp",
+      "/images/services/renovierung/renovierung-2.webp",
+      "/images/services/renovierung/renovierung-3.webp",
     ],
   },
 
@@ -49,9 +49,9 @@ export const services = [
     text: "Moderne Trockenbaulösungen für Ihr Zuhause.",
     icon: Building2,
     images: [
-      "/images/services/trockenbau-1.webp",
-      "/images/services/trockenbau-2.webp",
-      "/images/services/trockenbau-3.webp",
+      "/images/services/trockenbau/trockenbau-1.webp",
+      "/images/services/trockenbau/trockenbau-2.webp",
+      "/images/services/trockenbau/trockenbau-3.webp",
     ],
   },
 
@@ -60,9 +60,9 @@ export const services = [
     text: "Professionelle Malerarbeiten innen & außen.",
     icon: PaintRoller,
     images: [
-      "/images/services/malerarbeiten-1.webp",
-      "/images/services/malerarbeiten-2.webp",
-      "/images/services/malerarbeiten-3.webp",
+      "/images/services/malerarbeiten/malerarbeiten-1.webp",
+      "/images/services/malerarbeiten/malerarbeiten-2.webp",
+      "/images/services/malerarbeiten/malerarbeiten-3.webp",
     ],
   },
 
@@ -71,9 +71,9 @@ export const services = [
     text: "Laminat, Vinyl, Fliesen und mehr.",
     icon: Grid3X3,
     images: [
-      "/images/services/boden-1.webp",
-      "/images/services/boden-2.webp",
-      "/images/services/boden-3.webp",
+      "/images/services/bodenverlegung/boden-1.webp",
+      "/images/services/bodenverlegung/boden-2.webp",
+      "/images/services/bodenverlegung/boden-3.webp",
     ],
   },
 
@@ -82,9 +82,9 @@ export const services = [
     text: "Fassadenanstriche & Wärmedämmung.",
     icon: Construction,
     images: [
-      "/images/services/fassade-1.webp",
-      "/images/services/fassade-2.webp",
-      "/images/services/fassade-3.webp",
+      "/images/services/fassadenarbeiten/fassade-1.webp",
+      "/images/services/fassadenarbeiten/fassade-2.webp",
+      "/images/services/fassadenarbeiten/fassade-3.webp",
     ],
   },
 
@@ -93,9 +93,9 @@ export const services = [
     text: "Individueller Innenausbau nach Wunsch.",
     icon: Hammer,
     images: [
-      "/images/services/innenausbau-1.webp",
-      "/images/services/innenausbau-2.webp",
-      "/images/services/innenausbau-3.webp",
+      "/images/services/innenausbau/innenausbau-1.webp",
+      "/images/services/innenausbau/innenausbau-2.webp",
+      "/images/services/innenausbau/innenausbau-3.webp",
     ],
   },
 
@@ -104,10 +104,10 @@ export const services = [
     text: "Professionelle Elektroinstallationen & moderne Stromlösungen.",
     icon: Zap,
     images: [
-      "/images/services/elektrik-1.webp",
-      "/images/services/elektrik-2.webp",
-      "/images/services/elektrik-3.webp",
-      "/images/services/elektrik-4.webp",
+      "/images/services/elektrikarbeiten/elektrik-1.webp",
+      "/images/services/elektrikarbeiten/elektrik-2.webp",
+      "/images/services/elektrikarbeiten/elektrik-3.webp",
+      "/images/services/elektrikarbeiten/elektrik-4.webp",
     ],
   },
 
