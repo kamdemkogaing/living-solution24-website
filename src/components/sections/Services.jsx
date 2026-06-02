@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { ArrowRight } from "lucide-react";
 import { services } from "../../data/services";
 import ServiceCard from "../ui/ServiceCard";
 import ServiceModal from "../ui/ServiceModal";
@@ -37,14 +36,14 @@ export default function Services() {
             ))}
           </div>
 
-          <div className="text-center mt-10">
+          {/* <div className="text-center mt-10">
             <a
               href="#kontakt"
               className="inline-flex items-center gap-3 bg-brandRed hover:bg-brandDarkRed text-white px-8 py-4 font-bold uppercase text-xs transition rounded-xl"
             >
               Alle Leistungen ansehen <ArrowRight size={16} />
             </a>
-          </div>
+          </div> */}
         </div>
       </section>
 
