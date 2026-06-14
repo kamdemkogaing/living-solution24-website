@@ -15,9 +15,12 @@ export default function Services() {
               Unsere Leistungen
             </p>
 
-            <h2 className="text-3xl md:text-5xl font-black uppercase mt-3">
-              Wir bieten Ihnen <br className="hidden md:block" />
-              Komplettlösungen
+            <h2 className="text-2xl font-black uppercase mt-3">
+              {/* Wir bieten Ihnen <br className="hidden md:block" />
+              Komplettlösungen */}
+              Hier sehen Sie ausgewälte Beispiele{" "}
+              <br className="hidden md:block" />
+              und Eindrücke unsere Arbeit
             </h2>
 
             <p className="text-gray-600 mt-5 max-w-2xl mx-auto">
