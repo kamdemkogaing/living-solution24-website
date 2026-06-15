@@ -62,7 +62,7 @@ export default function ServiceModal({ service, onClose }) {
         <button
           type="button"
           onClick={onClose}
-          className="absolute top-5 right-5 z-20 w-10 h-10 rounded-full bg-brandBlack text-white flex items-center justify-center hover:bg-brandRed transition"
+          className="absolute top-5 right-5 z-20 w-8 h-8 rounded-full bg-brandBlack text-white flex items-center justify-center hover:bg-brandRed transition"
           aria-label="Modal schließen"
         >
           <X size={22} />
@@ -81,7 +81,7 @@ export default function ServiceModal({ service, onClose }) {
                     {service.upload ? "Projekt Upload" : "Unsere Leistung"}
                   </p>
 
-                  <h3 className="text-2xl md:text-5xl font-black uppercase leading-tight">
+                  <h3 className="text-xl md:text-3xl font-black uppercase leading-tight">
                     {service.title}
                   </h3>
                 </div>
