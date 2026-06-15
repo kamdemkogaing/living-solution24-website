@@ -15,12 +15,10 @@ export default function Services() {
               Unsere Leistungen
             </p>
 
-            <h2 className="text-2xl font-black uppercase mt-3">
-              {/* Wir bieten Ihnen <br className="hidden md:block" />
-              Komplettlösungen */}
-              Hier sehen Sie ausgewälte Beispiele{" "}
+            <h2 className="text-2xl md:text-4xl font-black uppercase mt-3 leading-tight">
+              Hier sehen Sie ausgewählte Beispiele
               <br className="hidden md:block" />
-              und Eindrücke unsere Arbeit
+              und Eindrücke unserer Arbeit
             </h2>
 
             <p className="text-gray-600 mt-5 max-w-2xl mx-auto">
@@ -34,19 +32,11 @@ export default function Services() {
               <ServiceCard
                 key={service.title}
                 {...service}
+                text={service.shortText || service.text}
                 onClick={() => setSelectedService(service)}
               />
             ))}
           </div>
-
-          {/* <div className="text-center mt-10">
-            <a
-              href="#kontakt"
-              className="inline-flex items-center gap-3 bg-brandRed hover:bg-brandDarkRed text-white px-8 py-4 font-bold uppercase text-xs transition rounded-xl"
-            >
-              Alle Leistungen ansehen <ArrowRight size={16} />
-            </a>
-          </div> */}
         </div>
       </section>
 

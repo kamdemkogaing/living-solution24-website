@@ -13,6 +13,49 @@ export default function ServiceModal({ service, onClose }) {
     setSelectedFiles(files);
   };
 
+  const renderContent = () => {
+    if (Array.isArray(service.longText)) {
+      return (
+        <>
+          {service.longText.map((paragraph, index) => {
+            const isFirst = index === 0 && service.title === "Elektrikarbeiten";
+
+            return isFirst ? (
+              <h4
+                key={index}
+                className="text-xl md:text-2xl font-black text-brandBlack"
+              >
+                {paragraph}
+              </h4>
+            ) : (
+              <p key={index}>{paragraph}</p>
+            );
+          })}
+
+          {service.listTitle && (
+            <h4 className="text-xl md:text-2xl font-black text-brandBlack pt-3">
+              {service.listTitle}
+            </h4>
+          )}
+
+          {service.listItems?.length > 0 && (
+            <ul className="list-disc pl-6 space-y-2">
+              {service.listItems.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          )}
+
+          {service.finalText && <p>{service.finalText}</p>}
+        </>
+      );
+    }
+
+    return (
+      <p className="whitespace-pre-line">{service.longText || service.text}</p>
+    );
+  };
+
   return (
     <div className="fixed inset-0 z-[9999] bg-black/80 backdrop-blur-sm flex items-center justify-center px-4">
       <div className="bg-white text-brandBlack max-w-6xl w-full max-h-[90vh] overflow-y-auto rounded-3xl shadow-2xl relative">
@@ -26,7 +69,7 @@ export default function ServiceModal({ service, onClose }) {
         </button>
 
         <div className="p-6 md:p-10">
-          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-8">
+          <div className="grid lg:grid-cols-[1fr_auto] gap-8 mb-8 pr-10">
             <div>
               <div className="flex items-center gap-4 mb-4">
                 <div className="w-16 h-16 rounded-full bg-brandRed text-white flex items-center justify-center shrink-0">
@@ -38,23 +81,27 @@ export default function ServiceModal({ service, onClose }) {
                     {service.upload ? "Projekt Upload" : "Unsere Leistung"}
                   </p>
 
-                  <h3 className="text-xl md:text-5xl font-black uppercase">
+                  <h3 className="text-2xl md:text-5xl font-black uppercase leading-tight">
                     {service.title}
                   </h3>
                 </div>
               </div>
 
-              <p className="text-gray-600 max-w-2xl leading-relaxed">
-                {service.text}
-                {!service.upload &&
-                  " Hier sehen Sie ausgewählte Beispiele und Eindrücke unserer Arbeit."}
-              </p>
+              {!service.upload && service.modalTitle && (
+                <h4 className="text-brandRed text-lg md:text-xl font-black mb-5 leading-snug">
+                  {service.modalTitle}
+                </h4>
+              )}
+
+              <div className="text-gray-700 max-w-5xl leading-relaxed text-base md:text-lg space-y-5">
+                {renderContent()}
+              </div>
             </div>
 
             <a
               href="#kontakt"
               onClick={onClose}
-              className="inline-flex items-center justify-center gap-3 bg-brandRed hover:bg-brandDarkRed text-white px-8 py-4 font-bold uppercase text-xs transition rounded-xl"
+              className="inline-flex items-center justify-center gap-3 bg-brandRed hover:bg-brandDarkRed text-white px-8 py-4 font-bold uppercase text-xs transition rounded-xl h-fit lg:mt-10 shrink-0"
             >
               Anfrage senden <ArrowRight size={16} />
             </a>
@@ -133,26 +180,8 @@ export default function ServiceModal({ service, onClose }) {
                     loading="lazy"
                     className="w-full h-72 md:h-80 object-cover group-hover:scale-110 transition duration-700"
                   />
-
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition" />
-
-                  <div className="absolute bottom-5 left-5 right-5 text-white opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition">
-                    <p className="text-sm font-bold uppercase text-brandRed">
-                      {service.title}
-                    </p>
-
-                    <h4 className="text-xl font-black">
-                      Projektbild {index + 1}
-                    </h4>
-                  </div>
                 </div>
               ))}
-            </div>
-          ) : !service.upload ? (
-            <div className="bg-brandGray p-8 rounded-2xl text-center">
-              <p className="font-semibold text-gray-600">
-                Für diese Leistung sind aktuell noch keine Bilder hinterlegt.
-              </p>
             </div>
           ) : null}
         </div>
