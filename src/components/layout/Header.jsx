@@ -18,7 +18,7 @@ export default function Header() {
         <a href="#start">
           <img
             src="/images/logo_CM.webp"
-            alt="Living Solution 24"
+            alt="living-solution24"
             className="h-16 md:h-[6rem] object-contain"
           />
         </a>

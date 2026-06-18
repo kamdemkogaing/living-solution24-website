@@ -16,7 +16,7 @@ export default function ReferenceCard({
       <div className="relative h-[320px] md:h-[380px]">
         <img
           src={image}
-          alt={`${title} - ${category} von Living Solution 24`}
+          alt={`${title} - ${category} von living-solution24`}
           loading="lazy"
           className="w-full h-full object-cover transition duration-700 group-hover:scale-110"
         />
@@ -42,7 +42,7 @@ export default function ReferenceCard({
             </p>
           )}
 
-          <h3 className="text-white text-2xl md:text-3xl font-black leading-tight">
+          <h3 className="text-white text-2xl font-black leading-tight">
             {title}
           </h3>
 

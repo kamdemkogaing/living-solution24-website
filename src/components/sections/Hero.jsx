@@ -24,7 +24,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 text-base md:text-lg text-gray-200 max-w-xl">
-            Living Solution 24 steht für Qualität, Zuverlässigkeit und perfekte
+            living-solution24 steht für Qualität, Zuverlässigkeit und perfekte
             Ergebnisse bei Bau, Sanierung und Renovierung.
           </p>
 

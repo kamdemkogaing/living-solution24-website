@@ -22,7 +22,7 @@ export default function Contact() {
     const message = formData.get("message");
 
     const subject = encodeURIComponent(
-      `Neue Anfrage von ${name} - Living Solution 24`,
+      `Neue Anfrage von ${name} - living-solution24`,
     );
 
     const body = encodeURIComponent(
@@ -148,7 +148,7 @@ export default function Contact() {
 
           <div className="overflow-hidden rounded-2xl border border-white/10 shadow-soft">
             <iframe
-              title="Living Solution 24 Standorte Karlsruhe und Pforzheim"
+              title="living-solution24 Standorte Karlsruhe und Pforzheim"
               src="https://www.google.com/maps?q=Erzbergerstr%2094%2076133%20Karlsruhe%20Bleichstr%2046%2075173%20Pforzheim&output=embed"
               className="w-full h-72 border-0"
               loading="lazy"

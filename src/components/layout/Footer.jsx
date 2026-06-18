@@ -26,12 +26,12 @@ export default function Footer() {
           <div>
             <img
               src="/images/logo_CM.webp"
-              alt="Living Solution 24"
+              alt="living-solution24"
               className="mb-6"
             />
 
             <p className="text-gray-400 text-sm leading-relaxed">
-              Living Solution 24 steht für professionelle Bau-, Sanierungs- und
+              living-solution24 steht für professionelle Bau-, Sanierungs- und
               Renovierungsarbeiten mit Qualität, Zuverlässigkeit und modernen
               Lösungen aus einer Hand.
             </p>
@@ -215,7 +215,7 @@ export default function Footer() {
             </div>
 
             <p className="text-gray-500 text-sm mt-6 leading-relaxed">
-              Folgen Sie Living Solution 24 auf Social Media und sehen Sie
+              Folgen Sie living-solution24 auf Social Media und sehen Sie
               unsere neuesten Projekte und Baustellen.
             </p>
           </div>
@@ -223,7 +223,7 @@ export default function Footer() {
 
         <div className="border-t border-brandRed/30">
           <div className="max-w-7xl mx-auto px-4 lg:px-6 py-5 flex flex-col md:flex-row items-center justify-between gap-3 text-sm text-gray-400">
-            <p>© 2024 Living Solution 24 – Alle Rechte vorbehalten.</p>
+            <p>© 2024 living-solution24 – Alle Rechte vorbehalten.</p>
 
             <div className="flex gap-5">
               <button
@@ -268,7 +268,7 @@ export default function Footer() {
                       Angaben gemäß § 5 TMG
                     </h3>
                     <p>
-                      Living Solution 24
+                      living-solution24
                       <br />
                       Inhaber: Christian Monthe
                       <br />
@@ -355,7 +355,7 @@ export default function Footer() {
                       2. Verantwortliche Stelle
                     </h3>
                     <p>
-                      Living Solution 24
+                      living-solution24
                       <br />
                       Inhaber: Christian Monthe
                       <br />

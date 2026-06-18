@@ -25,8 +25,8 @@ export const references = [
   },
   {
     id: 4,
-    title: "Dachgeschoss Renovierung",
-    category: "Renovierung",
+    title: "Dachgeschosssanierung",
+    category: "Sanierung",
     location: "Dachgeschoss",
     image: "/images/ref-4.webp",
     featured: false,
@@ -41,8 +41,8 @@ export const references = [
   },
   {
     id: 6,
-    title: "Bad Modernisierung",
-    category: "Renovierung",
+    title: "Badsanierung, Bad komplett Sanierung in Karlsruhe und Umgebung",
+    category: "Sanierung",
     location: "Badezimmer",
     image: "/images/ref-6.webp",
     featured: false,
@@ -52,7 +52,7 @@ export const references = [
     title: "Trockenbau Wohnzimmer",
     category: "Trockenbau",
     location: "Innenbereich",
-    image: "/images/ref-7.webp",
+    image: "/images/services/trockenbau/trockenbau-3.webp",
     featured: false,
   },
   {

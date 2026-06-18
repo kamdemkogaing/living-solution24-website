@@ -38,7 +38,7 @@ export default function About() {
             </p>
 
             <h2 className="text-4xl md:text-6xl font-black uppercase mt-3 mb-8">
-              Warum Living Solution 24?
+              Warum living-solution24?
             </h2>
 
             <p className="text-gray-600 leading-relaxed mb-8">
@@ -86,7 +86,7 @@ export default function About() {
           <div className="relative overflow-hidden rounded-3xl shadow-xl bg-white">
             <img
               src="/images/team-living-solution24.webp"
-              alt="Living Solution 24 Team"
+              alt="living-solution24 Team"
               className="
                 w-full
                 object-contain
