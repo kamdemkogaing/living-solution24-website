@@ -6,7 +6,6 @@ import ReferenceCard from "../ui/ReferenceCard";
 const filters = [
   "Alle",
   "Sanierung",
-  "Renovierung",
   "Trockenbau",
   "Innenausbau",
   "Fassade",
