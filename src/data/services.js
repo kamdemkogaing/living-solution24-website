@@ -7,7 +7,7 @@ import {
   Home,
   PaintRoller,
   Truck,
-  Upload,
+  /* Upload, */
   Zap,
 } from "lucide-react";
 
@@ -219,7 +219,7 @@ export const services = [
     ],
   },
 
-  {
+  /*   {
     title: "Projektbilder hochladen",
     shortText: "Unsere Bilder von Baustelle oder Projekt hinzufügen.",
     modalTitle: "Projektbilder hochladen",
@@ -229,5 +229,5 @@ export const services = [
     icon: Upload,
     images: [],
     upload: true,
-  },
+  }, */
 ];
