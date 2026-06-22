@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://living-solution24.de/sitemap.xml
+Sitemap: https://www.living-solution24.de/sitemap.xml
